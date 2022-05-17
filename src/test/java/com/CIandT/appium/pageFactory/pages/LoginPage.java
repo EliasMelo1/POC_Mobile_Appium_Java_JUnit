@@ -1,6 +1,6 @@
-package com.CIandT.appium.PageFactory.pages;
+package com.CIandT.appium.pageFactory.pages;
 
-import com.CIandT.appium.PageFactory.elements.LoginElement;
+import com.CIandT.appium.pageFactory.elements.LoginElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 

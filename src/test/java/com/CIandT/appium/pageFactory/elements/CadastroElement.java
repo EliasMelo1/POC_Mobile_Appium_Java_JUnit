@@ -1,6 +1,6 @@
-package com.CIandT.appium.PageFactory.elements;
+package com.CIandT.appium.pageFactory.elements;
 
-import com.CIandT.appium.PageFactory.BasePage;
+import com.CIandT.appium.pageFactory.BasePage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
