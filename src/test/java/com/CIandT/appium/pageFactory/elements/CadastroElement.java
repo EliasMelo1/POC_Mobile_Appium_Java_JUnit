@@ -1,13 +1,12 @@
 package com.CIandT.appium.pageFactory.elements;
 
-import com.CIandT.appium.pageFactory.BasePage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import lombok.Getter;
 
 @Getter
-public class CadastroElement extends BasePage {
+public class CadastroElement extends com.CIandT.appium.PageFactory.BasePage {
     //    Anotações para encontrar o elemento tanto Android quanto IOs
     @iOSXCUITFindBy(id = "idIOS")
     @AndroidFindBy(id = "br.com.alura.aluraesporte:id/input_nome")

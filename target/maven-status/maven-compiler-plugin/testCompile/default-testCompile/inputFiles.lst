@@ -1,1 +1,9 @@
-D:\Alura\Cursos\1820-appium\projeto-atual\src\test\java\com\alura\appium\FeatureCasdastro.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/pageFactory/elements/CadastroElement.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/pageFactory/pages/CadastroPage.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/utils/Utils.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/pageFactory/pages/LoginPage.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/pageFactory/elements/LoginElement.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/pageFactory/BasePage.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/runners/Runner.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/steps/CadastroStep.java
+/home/eliasgm/QA-BS/POC_Mobile_Appium_Java_JUnit/src/test/java/com/CIandT/appium/steps/BaseStep.java

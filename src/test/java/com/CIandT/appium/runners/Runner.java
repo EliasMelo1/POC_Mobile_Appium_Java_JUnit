@@ -10,7 +10,15 @@ import org.junit.runner.RunWith;
         features = "src/test/java/com/CIandT/appium/features",
         glue = "com/CIandT/appium/steps",
         tags = "@Cadastro",
-        monochrome = true
+        monochrome = true,
+        publish = false,
+        plugin = {
+                "pretty",
+                "summary",
+                "json:target/cumcumber/cucumber-report.json",
+                "html:target/cumcumber/cucumber-html-report.html",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+        }
 )
 public class Runner {
 }

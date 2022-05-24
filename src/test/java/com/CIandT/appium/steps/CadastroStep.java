@@ -6,7 +6,7 @@ import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CadastroStep {
     LoginPage loginPage = new LoginPage();
@@ -25,6 +25,6 @@ public class CadastroStep {
 
     @Entao("A mensagem Senhas não conferem deve ser sexibida")
     public void a_mensagem_senhas_não_conferem_deve_ser_sexibida() {
-        assertEquals("Senhas não conferem", cadastroPage.getMensagemErroTxt());
+        assertEquals("Senhas não conferem123", cadastroPage.getMensagemErroTxt());
     }
 }
