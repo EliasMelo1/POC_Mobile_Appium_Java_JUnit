@@ -1,5 +1,5 @@
 # language: pt
-@Cadastro
+@CadastroSuite
 Funcionalidade: Cadastro
 
   Cenario: Cadastro de usuario

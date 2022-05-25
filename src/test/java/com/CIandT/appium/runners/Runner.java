@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         features = "src/test/java/com/CIandT/appium/features",
         glue = "com/CIandT/appium/steps",
-        tags = "@Cadastro",
+        tags = "@CadastroSuite",
         monochrome = true,
         publish = false,
         plugin = {

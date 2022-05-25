@@ -25,6 +25,6 @@ public class CadastroStep {
 
     @Entao("A mensagem Senhas não conferem deve ser sexibida")
     public void a_mensagem_senhas_não_conferem_deve_ser_sexibida() {
-        assertEquals("Senhas não conferem123", cadastroPage.getMensagemErroTxt());
+        assertEquals("Senhas não conferem", cadastroPage.getMensagemErroTxt());
     }
 }

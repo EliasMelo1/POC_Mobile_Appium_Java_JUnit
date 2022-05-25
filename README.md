@@ -1,103 +1,44 @@
-# POC_Mobile_Appium_Java_JUnit
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
-Configurações para o Linux Ubuntu:
+<h1 align="center">POC MOBILE </h1>
+<p align="center">Projeto de exemplo para automações mobile, automatiza app Alura Esportes</p>
 
-Após ter o node instalado:
-Instalar Appium
-```
-npm install -g appium
-```
+## ⚒️ Recursos utilizados
+- **Tecnologias**
+    - [Java](https://www.java.com/pt-BR/)
+    - [Maven](https://maven.apache.org/guides/index.html)
+    - [Lombok](https://projectlombok.org/features/all)
+    - [Junit 5](https://junit.org/junit5)
+    - [Cucumber](https://cucumber.io/)
+    - [Appium](https://appium.io/)
+    - [Allure](https://docs.qameta.io/allure/)
 
-Verificar o que precisa para rodar o Appium
-```
-npx appium-doctor
-```
+## 📂 Escolha suite de teste
+***Para escolher uma suite de testes, utilize os parâmetros:***
 
-Instalar as dependências do projeto com Maven
-```
-mvn install
-```
+- ` Dsuite=Cadastro`
 
-Instalando o JDK no Linux
-```
-sudo apt update
-sudo apt search openjdk
+## 📱 Escolha da Plataforma
+***Para selecionar a Plataforma de execução do teste, utilize os parâmetros:***
 
-sudo apt install openjdk-8-jdk
-export JAVA_HOME=usr/lib/jvm/java-8-openjdk-amd64/
+- Dplatform=IOS
 
-ou
+- Dplatform=ANDROID
 
-sudo apt install openjdk-11-jdk
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-java -version
-```
+> OBS: Caso a variavel platform não seja declarada, o valor default é Dplatform=ANDROID. E
+> caso seja informado qualquer valor diferente de ANDROID ou IOS, sera lançada uma exception.
+ 
 
-Editar os arquivos das variáveis de ambiente no Linux
-```
-sudo gedit ~/.bashrc
-```
+## Requisitos para executar os testes do projeto
+> Caso não atenda algum dos requsitos e não saiba como configurar a máquina siga este tutorial [README CONFIGURAÇÕES](README-configuracao.md)  
 
-Atualizar os arquivos no 'bashrc' no Linux
-```
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-export PATH=$PATH:$JAVA_HOME/bin
-ou 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export PATH=$PATH:$JAVA_HOME/bin
-e
-export ANDROID_HOME=/usr/home/lorenae/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-```
 
-Atualizar os arquivos das variáveis de ambiente no Linux
-```
-source ~/.bashrc
-```
+## 🚀 Execução dos Testes
+Para executar a suite de cadastro no Android:    
+``mvn clean test -Dtest=CadastroSuite -Dplatform=ANDROID``
 
-Verificar as instalações no Linux
-```
-echo $ANDROID_HOME
-echo $JAVA_HOME
-npx appium-doctor
-```
+>Você pode também rodar os testes através da interface de sua IDE, nesse caso para escolher a plataforma
+> é necessário alterar o valor de retorno do Else dentro do metodo getPlatform() na classe Utils.
 
-Iniciar o Android Studio no Linux
-```
-cd android-studio/bin
-./studio.sh
-```
 
-Instalar o KVM para o AVD do Android Studio no Linux
-```
-sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
-sudo apt-get install cpu-checker
-```
-
-Resolver dependências do projeto
-```
-mvn install
-ou 
-mvn dependency:resolve
-```
-
-UIAutomatorViewer para inspecionar o apk
-```
-cd Android/Sdk/tools/bin
-./uiautomatorviewer
-```
-
-Caso não execute configure o java 8 como padrão de JVM
-```
-sudo update-alternatives --config java
-```
-
-Rodar o Appium antes de iniciar os testes
-```
-appium
-```
-
-Rode os testes no JUnit
+## 📜 Geração de relatório
