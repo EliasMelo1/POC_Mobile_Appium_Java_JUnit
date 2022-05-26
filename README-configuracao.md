@@ -62,7 +62,9 @@ CLique no link acima, e baixe o android studio
 ```
 
 ## Instalar allure
-
+```
+  npm install -g allure-commandline
+```
 ## Instalando o JDK no Linux
 ```
     sudo apt update
