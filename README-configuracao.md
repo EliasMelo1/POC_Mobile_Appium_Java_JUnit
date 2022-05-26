@@ -115,3 +115,5 @@ https://medium.com/@herbert1078/como-configurar-o-appium-server-e-o-appium-deskt
 https://www.programsbuzz.com/article/allure-report-cucumber
 https://www.programsbuzz.com/course/cucumber-tutorial
 https://junit.org/junit5/docs/current/api/
+
+[⬆ Voltar ao topo](#Tutorial-de-instalação-dos-requisitos)<br>
