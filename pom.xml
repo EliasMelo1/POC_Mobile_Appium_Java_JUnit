@@ -18,7 +18,7 @@
   <aspectj.version>1.8.10</aspectj.version>
   <allure.report.version>2.18.0</allure.report.version>
   <junit.version>5.5.0</junit.version>
-  <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+  <allure.results.directory>${project.build.directory}/target/allure-results</allure.results.directory>
   <allure-cucumber7-jvm.version>2.17.2</allure-cucumber7-jvm.version>
   <allure.version>2.13.0</allure.version>
   <allure-maven.version>2.10.0</allure-maven.version>
@@ -113,7 +113,7 @@
       <version>${allure-maven.version}</version>
       <configuration>
         <reportVersion>${allure.version}</reportVersion>
-        <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+        <resultsDirectory>{allure.results.directory}</resultsDirectory>
       </configuration>
     </plugin>
   </plugins>
